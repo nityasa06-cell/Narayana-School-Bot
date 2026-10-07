@@ -307,8 +307,8 @@
         addMessage(reply, "bot");
 
         // Update history so context is preserved in next turn
-        history.push({ role: "user",  parts: text });
-        history.push({ role: "model", parts: reply });
+        history.push({ role: "user",      content: text });
+        history.push({ role: "assistant", content: reply });
       }
     } catch (err) {
       hideTyping();

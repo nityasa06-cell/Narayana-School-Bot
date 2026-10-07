@@ -1,8 +1,7 @@
 import os
 from flask import Flask, request, jsonify, render_template
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
+from groq import Groq
 
 # Load environment variables from .env file
 load_dotenv()
@@ -63,15 +62,15 @@ BEHAVIOR
 """
 
 # ---------------------------------------------------------------------------
-# Gemini setup
+# Groq setup
 # ---------------------------------------------------------------------------
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise RuntimeError("GEMINI_API_KEY environment variable is not set. Add it to your .env file.")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise RuntimeError("GROQ_API_KEY environment variable is not set. Add it to your .env file.")
 
-client = genai.Client(api_key=GEMINI_API_KEY)
-MODEL = "gemini-3.5-flash-lite"
+client = Groq(api_key=GROQ_API_KEY)
+MODEL = "openai/gpt-oss-20b"
 
 # ---------------------------------------------------------------------------
 # Routes
@@ -87,13 +86,13 @@ def index():
 def chat():
     """
     Receive the conversation history from the frontend,
-    send it to Gemini, and return the assistant's reply.
+    send it to Groq, and return the assistant's reply.
 
     Expected request body (JSON):
     {
         "history": [
-            {"role": "user",  "parts": "Hello"},
-            {"role": "model", "parts": "Hi there!"},
+            {"role": "user",      "content": "Hello"},
+            {"role": "assistant", "content": "Hi there!"},
             ...
         ],
         "message": "What classes are offered?"
@@ -110,35 +109,26 @@ def chat():
     if not user_message:
         return jsonify({"error": "Message is empty."}), 400
 
-    # Build the full conversation as a list of Content objects
-    contents = []
+    # Build the messages list: system prompt + conversation history + new message
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+
     for entry in history:
-        contents.append(
-            types.Content(
-                role=entry["role"],
-                parts=[types.Part(text=entry["parts"])]
-            )
-        )
-    # Add the latest user message
-    contents.append(
-        types.Content(
-            role="user",
-            parts=[types.Part(text=user_message)]
-        )
-    )
+        messages.append({
+            "role": entry["role"],       # "user" or "assistant"
+            "content": entry["content"]
+        })
+
+    messages.append({"role": "user", "content": user_message})
 
     try:
-        response = client.models.generate_content(
+        response = client.chat.completions.create(
             model=MODEL,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                temperature=0.7,
-            )
+            messages=messages,
+            temperature=0.7,
         )
-        reply = response.text
+        reply = response.choices[0].message.content
     except Exception as e:
-        return jsonify({"error": f"Gemini API error: {str(e)}"}), 500
+        return jsonify({"error": f"Groq API error: {str(e)}"}), 500
 
     return jsonify({"reply": reply})
 
