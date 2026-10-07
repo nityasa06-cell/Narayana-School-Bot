@@ -32,8 +32,14 @@ COLLABORATORS
 
 I worked on this chatbot with:
 - Ethan
-- Tesha
+- Nityasa
 - Nishant
+
+---
+
+---
+
+Sujal Was the Mentor
 
 ---
 
