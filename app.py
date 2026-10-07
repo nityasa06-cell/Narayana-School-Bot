@@ -50,9 +50,8 @@ FRIENDS
 
 CREATOR
 
-This chatbot was created by me.
-[Add more creator details here when needed.]
-
+This chatbot was created by Nityasa.
+[A student of Narayana school, Kalimpong. Class 11 Science. 17 years old]
 ---
 
 BEHAVIOR
@@ -70,7 +69,7 @@ BEHAVIOR
 # ADDITIONAL NARAYANA SCHOOL / NARAYANA GROUP KNOWLEDGE
 # ============================================================
 
-NARAYANA_GROUP_INFORMATION = """
+NARAYANA_GROUP_INFORMATION 
 NARAYANA EDUCATIONAL INSTITUTIONS
 
 Narayana Educational Institutions is one of India's largest educational
@@ -199,14 +198,14 @@ IMPORTANT ACCURACY RULE:
   may change over time.
 - When information could have changed, use approximate wording rather
   than presenting old statistics as permanent facts.
-"""
+
 
 
 # ============================================================
 # CHATBOT CREATION / COLLABORATOR INFORMATION
 # ============================================================
 
-CHATBOT_CREATION_INFORMATION = """
+CHATBOT_CREATION_INFORMATION 
 CHATBOT CREATION INFORMATION
 
 This chatbot was created as a collaborative project.
@@ -257,8 +256,7 @@ Assistant: The main creators were Nityasa and Nishant. Other contributors
 included Anvesh, Bunty, Kushal, RIgzin and Reeha. Sujal was the mentor for
 the project.
 
-User: Who was your mentor?
-Assistant: Sujal was the mentor for the project.
+
 """
 
 
@@ -273,7 +271,6 @@ ADDITIONAL_KNOWLEDGE = (
 )
 
 SYSTEM_PROMPT += "\n\n" + ADDITIONAL_KNOWLEDGE
-"""
 
 # ---------------------------------------------------------------------------
 # Groq setup
