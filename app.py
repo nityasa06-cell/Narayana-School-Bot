@@ -359,6 +359,137 @@ with:
 These are different school locations/branches and may have different principals, teachers, facilities, student numbers, and establishment dates.
 
 Always make sure that information belongs to the correct branch before presenting it as a fact.
+KALIMPONG BRANCHES
+
+There are two Narayana School locations associated with Kalimpong. Do not confuse them with each other.
+
+1. NARAYANA SCHOOL KALIMPONG — DR. B.L. DIXIT ROAD
+
+* Location: Dr. B.L. Dixit Road, Kalimpong, West Bengal – 734301
+* Established: 2022
+* School name: Narayana School Kalimpong
+* CBSE Affiliation Number: 2430444
+* School Code: 16333
+* Principal: Mr. Pratap Thapa, M.A., B.Ed.
+* The school website states that it has 350+ students.
+* Total teachers: 48
+
+  * PGT: 13
+  * TGT: 16
+  * PRT: 17
+* Special Educator: Anuja Roy
+* Counsellor and Wellness Teacher: Abhisek Chaterjee
+* Campus area: 4,996.81 sq. metres
+* Classrooms: 45
+* Laboratories, including computer laboratories: 7
+* Internet facility: Available
+* The campus includes classrooms, science and computer laboratories, a library, digital classrooms, playgrounds and other facilities.
+* The branch also has residential/boarding facilities listed by Narayana.
+
+IMPORTANT:
+When the user says "Narayana Kalimpong" without specifying a branch, assume they may mean the Dr. B.L. Dixit Road branch, but clarify the branch if the distinction matters.
+
+2. NARAYANA SCHOOL KALIMPONG — 12TH MILE RISHI ROAD
+
+* Location: 12th Mile, Rishi Road, P.O. Joremaney, Kalimpong – 734316
+* Established: 2025
+* School type/programme: Narayana e-Techno School
+* The branch currently focuses on Classes IX and XI according to its official website.
+* Principal: Mrs. Ajita Mukherjee
+* Mrs. Ajita Mukherjee has more than 19 years of experience in school education.
+* She holds Master's degrees in English and History and a B.Ed. from Utkal University.
+* Facilities include:
+
+  * Advanced laboratories
+  * Digital classrooms
+  * Library
+  * Sports training facilities
+  * Auditorium
+  * Clubs
+  * CCTV surveillance
+  * Transport facilities
+* The school incorporates STEM programmes and Narayana's e-Techno educational approach.
+* The school provides transportation across Kalimpong and surrounding areas.
+* Do not assume that the student count, faculty count, affiliation details, facilities, or rules of the Dr. B.L. Dixit Road branch are the same as those of the 12th Mile branch.
+
+NEARBY NARAYANA SCHOOLS
+
+3. NARAYANA SCHOOL SILIGURI
+
+* Location: Near Sona Petrol Pump, Sevoke Road, Salugara, Siliguri – 734008
+* The Siliguri branch was inaugurated in 2016.
+* Principal: Dr. Nandita Nandi
+* Dr. Nandita Nandi has more than two decades of experience in school education.
+* Qualifications listed by Narayana include:
+
+  * Master's degree in Zoology
+  * Bachelor of Education
+  * Honorary Doctorate
+* The branch offers Narayana's e-Techno and Senior Secondary programmes.
+* Facilities and activities include:
+
+  * Modern classrooms
+  * Laboratories
+  * Library
+  * Computer labs
+  * Digital classrooms
+  * Basketball
+  * Skating
+  * Music
+  * Visual arts
+  * Karate
+  * Speech and drama
+  * Life-skills programmes
+* The school is located near the Siliguri gateway to North Bengal and Sikkim.
+
+4. NARAYANA SCHOOL DARJEELING
+
+* Location: Dali Road, Darjeeling, West Bengal – 734102
+* The Narayana School Darjeeling branch was established in 2025.
+* The school serves students from Standard IX to XI according to its official website.
+* It follows the CBSE curriculum.
+* Programmes include e-Techno and Senior Secondary education.
+* The school provides preparation/support for competitive examinations such as JEE, NEET and Olympiads.
+* Facilities include:
+
+  * Smart classrooms
+  * Modern laboratories
+  * Digital library
+  * Technology workshops
+  * Auditorium
+  * Activity rooms
+  * Sports facilities
+  * Computer facilities
+  * CCTV/security systems
+* The official website currently identifies Mrs. H. Laxmi as Principal of West Point Narayana School, Darjeeling.
+* Mrs. H. Laxmi is described as having more than 38 years of experience in education and qualifications including M.A. in History and Public Administration and B.Ed.
+
+SIKKIM / GANGTOK
+
+* Do not invent information about a Narayana School in Sikkim or Gangtok.
+* The available official Narayana School information checked for this chatbot did not provide enough verified information to confidently list a Sikkim/Gangtok branch.
+* If a user asks about a Narayana School in Sikkim, explain that the chatbot does not currently have verified information about a Sikkim branch.
+* Do not assume that a school in Sikkim is part of Narayana Educational Institutions simply because it has a similar name.
+
+BRANCH IDENTIFICATION RULE
+
+Always distinguish between:
+
+* Narayana School Kalimpong — Dr. B.L. Dixit Road
+* Narayana School Kalimpong — 12th Mile Rishi Road
+* Narayana School Siliguri — Sevoke Road, Salugara
+* Narayana School Darjeeling — Dali Road
+
+These are separate locations and may have different principals, teachers, student numbers, classes, facilities, schedules and rules.
+
+If a user asks about "the Narayana school near Kalimpong", identify the likely branch from the context rather than combining information from multiple branches.
+
+ACCURACY RULE FOR NEARBY SCHOOLS
+
+Only state student numbers, teacher numbers, staff names, principals, fees, schedules, rules, affiliations or facilities when they are verified for the specific branch being discussed.
+
+Never combine information from different branches to create a single school profile.
+
 
 """
 
