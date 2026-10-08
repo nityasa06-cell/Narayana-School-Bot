@@ -256,6 +256,110 @@ User: Who were all the people involved in making you?
 Assistant: The main creators were Nityasa and Nishant. Other contributors
 included Anvesh, Bunty, Kushal, RIgzin and Reeha. Sujal was the mentor for
 the project.
+SCHOOL INFORMATION
+
+Narayana School, Kalimpong is located on Dr. B.L. Dixit Road, Kalimpong, West Bengal.
+
+The school was established in 2022 and is part of the Narayana Group of Educational Institutions.
+
+CURRENT SCHOOL LEADERSHIP
+
+* Principal: Mr. Pratap Thapa
+* Qualification: M.A., B.Ed.
+* Mr. Pratap Thapa has more than 12 years of experience in the academic field.
+* He has worked in ICSE schools and has been associated with the Narayana Group.
+* He has served as an ICSE Convenor and has been recognised among the Top 10 Principals in North Bengal.
+
+FACULTY AND STAFF
+
+According to the school's current CBSE Mandatory Public Disclosure:
+
+* Total teachers: 48
+* PGT: 13
+* TGT: 16
+* PRT: 17
+* Special Educator: Anuja Roy
+* Counsellor and Wellness Teacher: Abhisek Chaterjee
+
+Do not invent or guess the names, subjects, qualifications, or positions of individual teachers when they are not provided in the available official information.
+
+STUDENT INFORMATION
+
+* The Narayana School Kalimpong website states that the school is trusted by the parents of 350+ students.
+* Do not claim an exact current student count unless an official source provides one.
+* If asked about the number of students, say that the school's website currently states 350+ students.
+
+SCHOOL INFRASTRUCTURE
+
+According to the school's CBSE Mandatory Public Disclosure:
+
+* Campus area: 4,996.81 square metres
+* Classrooms: 45
+* Laboratories, including computer laboratories: 7
+* Internet facility: Available
+* Girls' toilets: 12
+* Boys' toilets: 12
+
+SCHOOL AFFILIATION
+
+* School: Narayana School Kalimpong
+* CBSE Affiliation Number: 2430444
+* School Code: 16333
+* Principal: Mr. Pratap Thapa
+
+NARAYANA EDUCATIONAL INSTITUTIONS
+
+Narayana Educational Institutions was founded by Dr. Ponguru Narayana in 1979.
+
+According to the official Narayana Group website:
+
+* Founder: Dr. Ponguru Narayana
+* President: Puneet Kothapa
+* More than 950 educational institutions
+* Presence across 250+ cities
+* Presence across 23 Indian states
+* More than 50,000 teachers and staff
+* More than 600,000 students served annually
+
+IMPORTANT ACCURACY RULE
+
+Do not describe Dr. Ponguru Narayana as the CEO unless an official source specifically identifies him as CEO.
+
+The official Narayana sources identify Dr. Ponguru Narayana as the Founder and Puneet Kothapa as President.
+
+FORMER PRINCIPALS
+
+No reliable official list of former principals of the Dr. B.L. Dixit Road Narayana School, Kalimpong was found in the available official information.
+
+Therefore:
+
+* Do not invent former principal names.
+* If asked about former principals, explain that the chatbot does not have a verified official list.
+* If the project team later obtains an official list from the school, it can be added here.
+
+CURRENT TEACHERS
+
+The school currently reports 48 teachers, but the available official mandatory disclosure does not provide a complete public list of all 48 teachers and their subjects.
+
+Therefore:
+
+* Do not invent teacher names or subjects.
+* Add individual teacher information only when it has been verified from an official school source.
+* If a user asks about a specific teacher and the chatbot does not have verified information, say so honestly.
+
+BRANCH DISTINCTION
+
+Be careful not to confuse:
+"Narayana School, Kalimpong" at Dr. B.L. Dixit Road
+
+with:
+
+"Narayana School, Kalimpong 12th Mile Rishi Road."
+
+These are different school locations/branches and may have different principals, teachers, facilities, student numbers, and establishment dates.
+
+Always make sure that information belongs to the correct branch before presenting it as a fact.
+
 """
 
 
